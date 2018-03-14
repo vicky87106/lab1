@@ -1,0 +1,143 @@
+命令稿啟動於 2018年03月14日 下午 12:19:20
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ whoami; pwd
+user
+/cygdrive/c/Users/user/AppData/Roaming/SPB_16.6
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ git config -l
+user.email=vicky87106@gmail.com
+user.name=vicky87106
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ git clone 
+$ script lab1.script
+命令稿已啟動，檔案是 lab1.script
+
+user@LAPTOP-CGRIFD4K ~
+$ whoami; pwd
+user
+/cygdrive/c/Users/user/AppData/Roaming/SPB_16.6
+
+user@LAPTOP-CGRIFD4K ~
+$ git config -l
+fatal: You must specify a repository to clone.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recurse-submodules[=<pathspec>]user.email=vicky87106@gmail.com
+user.name=vicky87106
+
+user@LAPTOP-CGRIFD4K ~
+
+                          initialize submodules in the clone
+    -j, --jobs <n>        number of submodules cloned in parallel
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    --reference-if-able <repo>
+                          reference repository
+    --dissociate          use --reference only while cloning
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --shallow-since <time>
+                          create a shallow clone since a specific time
+    --shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --single-branch       clone only one branch, HEAD or --branch
+    --no-tags             don't clone any tags, and make later fetches not to follow them
+    --shallow-submodules  any cloned submodules will be shallow
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+$ git clone
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ user@LAPTOP-CGRIFD4K ~
+bash: user@LAPTOP-CGRIFD4K：命令找不到
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ $ script lab1.script
+bash: $：命令找不到
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ 命令稿已啟動，檔案是 lab1.script
+bash: 命令稿已啟動，檔案是：命令找不到
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ 
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ user@LAPTOP-CGRIFD4K ~
+bash: user@LAPTOP-CGRIFD4K：命令找不到
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ $ whoami; pwd
+bash: $：命令找不到
+/cygdrive/c/Users/user/AppData/Roaming/SPB_16.6
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ user
+bash: user：命令找不到
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ /cygdrive/c/Users/user/AppData/Roaming/SPB_16.6
+bash: /cygdrive/c/Users/user/AppData/Roaming/SPB_16.6: Is a directory
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ 
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ user@LAPTOP-CGRIFD4K ~
+bash: user@LAPTOP-CGRIFD4K：命令找不到
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ $ git config -l
+bash: $：命令找不到
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ user.email=vicky87106@gmail.com
+bash: user.email=vicky87106@gmail.com：命令找不到
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ user.name=vicky87106
+bash: user.name=vicky87106：命令找不到
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ 
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ user@LAPTOP-CGRIFD4K ~
+bash: user@LAPTOP-CGRIFD4K：命令找不到
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ $ git clone
+bash: $：命令找不到
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ git clov[Knw[Ke https://github.com/vicky87106/lab1.git
+fatal: destination path 'lab1' already exists and is not an empty directory.
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ exit
+
+命令稿已於 2018年03月14日 下午 12:21:15
+ 完成
