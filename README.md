@@ -1,5 +1,6 @@
 # lab1
 Title
+
 This is about Lab1,Question B.
 It is about Writing a C++ program to read in an integer and print out the corresponding sequence of numbers.
 
