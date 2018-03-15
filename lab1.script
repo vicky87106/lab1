@@ -1,16 +1,22 @@
 命令稿啟動於 2018年03月14日 下午 12:19:20
-]0;~
-[32muser@LAPTOP-CGRIFD4K [33m~[0m
+]0;~
+
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+
 $ whoami; pwd
 user
 /cygdrive/c/Users/user/AppData/Roaming/SPB_16.6
-]0;~
-[32muser@LAPTOP-CGRIFD4K [33m~[0m
+]0;~
+
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+
 $ git config -l
 user.email=vicky87106@gmail.com
 user.name=vicky87106
-]0;~
-[32muser@LAPTOP-CGRIFD4K [33m~[0m
+]0;~
+
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+
 $ git clone 
 $ script lab1.script
 命令稿已啟動，檔案是 lab1.script
@@ -69,74 +75,110 @@ user@LAPTOP-CGRIFD4K ~
     -6, --ipv6            use IPv6 addresses only
 
 $ git clone
-]0;~
-[32muser@LAPTOP-CGRIFD4K [33m~[0m
+]0;~
+
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+
 $ user@LAPTOP-CGRIFD4K ~
 bash: user@LAPTOP-CGRIFD4K：命令找不到
-]0;~
-[32muser@LAPTOP-CGRIFD4K [33m~[0m
+]0;~
+
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+
 $ $ script lab1.script
 bash: $：命令找不到
-]0;~
-[32muser@LAPTOP-CGRIFD4K [33m~[0m
+]0;~
+
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+
 $ 命令稿已啟動，檔案是 lab1.script
 bash: 命令稿已啟動，檔案是：命令找不到
-]0;~
-[32muser@LAPTOP-CGRIFD4K [33m~[0m
+]0;~
+
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+
 $ 
-]0;~
-[32muser@LAPTOP-CGRIFD4K [33m~[0m
+]0;~
+
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+
 $ user@LAPTOP-CGRIFD4K ~
 bash: user@LAPTOP-CGRIFD4K：命令找不到
-]0;~
-[32muser@LAPTOP-CGRIFD4K [33m~[0m
+]0;~
+
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+
 $ $ whoami; pwd
 bash: $：命令找不到
 /cygdrive/c/Users/user/AppData/Roaming/SPB_16.6
-]0;~
-[32muser@LAPTOP-CGRIFD4K [33m~[0m
+]0;~
+
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+
 $ user
 bash: user：命令找不到
-]0;~
-[32muser@LAPTOP-CGRIFD4K [33m~[0m
+]0;~
+
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+
 $ /cygdrive/c/Users/user/AppData/Roaming/SPB_16.6
 bash: /cygdrive/c/Users/user/AppData/Roaming/SPB_16.6: Is a directory
-]0;~
-[32muser@LAPTOP-CGRIFD4K [33m~[0m
+]0;~
+
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+
 $ 
-]0;~
-[32muser@LAPTOP-CGRIFD4K [33m~[0m
+]0;~
+
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+
 $ user@LAPTOP-CGRIFD4K ~
 bash: user@LAPTOP-CGRIFD4K：命令找不到
-]0;~
-[32muser@LAPTOP-CGRIFD4K [33m~[0m
+]0;~
+
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+
 $ $ git config -l
 bash: $：命令找不到
-]0;~
-[32muser@LAPTOP-CGRIFD4K [33m~[0m
+]0;~
+
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+
 $ user.email=vicky87106@gmail.com
 bash: user.email=vicky87106@gmail.com：命令找不到
-]0;~
-[32muser@LAPTOP-CGRIFD4K [33m~[0m
+]0;~
+
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+
 $ user.name=vicky87106
 bash: user.name=vicky87106：命令找不到
-]0;~
-[32muser@LAPTOP-CGRIFD4K [33m~[0m
+]0;~
+
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+
 $ 
-]0;~
-[32muser@LAPTOP-CGRIFD4K [33m~[0m
+]0;~
+
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+
 $ user@LAPTOP-CGRIFD4K ~
 bash: user@LAPTOP-CGRIFD4K：命令找不到
-]0;~
-[32muser@LAPTOP-CGRIFD4K [33m~[0m
+]0;~
+
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+
 $ $ git clone
 bash: $：命令找不到
-]0;~
-[32muser@LAPTOP-CGRIFD4K [33m~[0m
+]0;~
+
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+
 $ git clov[Knw[Ke https://github.com/vicky87106/lab1.git
 fatal: destination path 'lab1' already exists and is not an empty directory.
-]0;~
-[32muser@LAPTOP-CGRIFD4K [33m~[0m
+]0;~
+
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+
 $ exit
 
 命令稿已於 2018年03月14日 下午 12:21:15
