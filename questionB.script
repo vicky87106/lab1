@@ -1,0 +1,207 @@
+命令稿啟動於 2018年03月16日 上午 01:20:58
+]0;~/lab1
+[32muser@LAPTOP-CGRIFD4K [33m~/lab1[0m
+$ v[Kvim Q[KquestionB.cpp
+[?2004h[?1049h[?1h=[?2004h[1;23r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[23;1H"questionB.cpp" [未命名][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [m[23;63H0,0-1[8C全部[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [m[23;63H0,0-1[8C全部"questionB.cpp" [未命名][1;1H[?25h[?25l[23;53Hi[1;1H[23;53H [1;1H[23;1H[1m-- 插入 --[m[23;11H[K[23;63H0,1[10C全部[1;1H[?25h[?25l[1m[36m/*[m[1m[30m[43mW[m[1m[36mrite a C++ program to read in an integer and print[?25h[?25l out the corresponding sequu[2;1Hence of numbers.*/[m[2;19H[K[3;1H[1m[34m#include <[miost[3;15H[K[3;15H[?25h[?25l[1m[35m<iostream>[m[4;1H[K[4;1H[?25h[?25l[1m[33musing[m [1m[32mnamespace[m std;
+[1m[32mint[m main()[5;11H[K[6;1H{[6;2H[K[7;1H[K[7;1H[?25h[?25l[8C[1m[32mint[m n;
+          cout <<[1m[35m"Please enter an integer: "[m;[8;46H[K[9;1H[K[9;1H[?25h[?25l[10Ccin >> n;
+          cout << [1m[35m"The result is "[m<< n << [1m[35m" "[m;[10;47H[K[11;1H[K[11;1H[?25h[?25l[10C[1m[33mdo[m[12;1H[K[12;1H[?25h[?25l[10C{
+            [1m[33mif[m( n%[1m[35m2[m == [1m[35m1[m && n != [1m[35m1[m)[13;36H[K[14;1H[K[14;1H[?25h[?25l[15C{
+                 n = [1m[35m3[m*n + [1m[35m1[m;[15;30H[K[16;1H[K[16;1H[?25h[?25l[17Ccout << n << [1m[35m" "[m;[17;1H[K[17;1H[?25h[?25l[15C}[18;1H[K[18;1H[?25h[?25l[12C[1m[33melse[m
+               {[19;17H[K[20;1H[K[20;1H[?25h[?25l[16Cn = n / [1m[35m2[m;[21;1H[K[21;1H[?25h[?25l[16Ccout<< n << [1m[35m" "[m;
+               }[22;17H[K[1;22r[1;1H[2M[1;23r[22;1H[1m[34m~                                                                               [m[23;9H[1m(貼上) --[m[23;63H[K[23;63H22,1[9C底端[21;1H[?25h[?25l
+        }[1m[33mwhile[m (n != [1m[35m1[m);[22;25H[K[1;22r[22;1H
+[1;23r[23;63H[K[23;63H24,1[9C底端[22;1H[?25h[?25l[?25h[?25l[1;22r[22;1H
+[1;23r[22;9H[1m[33mreturn[m [1m[35m0[m;[23;63H[K[23;63H27,1[10C60%[22;1H[?25h[?25l[1;22r[1;1H[3M[1;23r[21;1H}[23;9H[1m-- 上[m[23;11H[K[23;63H28,1[9C底端[22;1H[?25h[?25li[23;66H2[22;2H[?25h[?25l[22;1H[K[23;66H1[22;1H[?25h[23;1H[K[22;1H[?25l[23;53H^[[22;1H[23;53H  [22;1H[23;63H28,0-1[7C底端[22;1H[?25h[?25l[23;53H:[22;1H[23;53H[K[23;1H:[?2004h[?25hw[?25l[?25h[?25l"questionB.cpp" [新] 28L, 601C 已寫入[22;1H[23;63H28,0-1[7C底端[23;63H[K[23;63H28,0-1[7C底端[22;1H[?25h[?25l[23;53H:[22;1H[23;1H[K[23;1H:[?2004h[?25hq[?25l[?25h[?25l[?2004l[23;1H[K[23;1H[?2004l[?1l>[?25h[?1049l]0;~/lab1
+[32muser@LAPTOP-CGRIFD4K [33m~/lab1[0m
+$ g++ questionB.cpp
+]0;~/lab1
+[32muser@LAPTOP-CGRIFD4K [33m~/lab1[0m
+$ g++ -o questionB questionB.cpp
+]0;~/lab1
+[32muser@LAPTOP-CGRIFD4K [33m~/lab1[0m
+$ ls
+a.exe	       Homework1.exe  questionB.cpp  questionB.script  typescript
+Homework1.cpp  lab1	      questionB.exe  README.md
+]0;~/lab1
+[32muser@LAPTOP-CGRIFD4K [33m~/lab1[0m
+$ ./questionB
+Please enter an integer: 22
+The result is 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1 ]0;~/lab1
+[32muser@LAPTOP-CGRIFD4K [33m~/lab1[0m
+$ ./questionB
+Please enter an integer: 33
+The result is 33 100 50 25 76 38 19 58 29 88 44 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1 ]0;~/lab1
+[32muser@LAPTOP-CGRIFD4K [33m~/lab1[0m
+$ G[Kgit init
+Reinitialized existing Git repository in /cygdrive/c/Users/user/AppData/Roaming/SPB_16.6/lab1/.git/
+]0;~/lab1
+[32muser@LAPTOP-CGRIFD4K [33m~/lab1[0m
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mHomework1.exe[m
+	[31ma.exe[m
+	[31mquestionB.cpp[m
+	[31mquestionB.exe[m
+	[31mquestionB.script[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;~/lab1
+[32muser@LAPTOP-CGRIFD4K [33m~/lab1[0m
+$ git add questionB.cpp
+]0;~/lab1
+[32muser@LAPTOP-CGRIFD4K [33m~/lab1[0m
+$ git commit
+hint: Waiting for your editor to close the file... [?2004h[?1049h[?1h=[?2004h[1;23r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[23;1H"~/lab1/.git/COMMIT_EDITMSG" 16L, 346C[2;1H# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#[7Cnew file:   questionB.cpp
+#
+# Untracked files:
+#[7CHomework1.exe
+#[7Ca.exe
+#[7CquestionB.exe
+#[7CquestionB.script
+#
+[1m[34m~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [1;1H[?25h[?25l[m[23;1H[1m-- INSERT --[m[23;13H[K[1;1H[?25h[?25lt[?25h[?25l[1;1H[K[1;1H[?25h[?25lT[?25h[?25li[?25h[?25lt[?25h[?25ll[?25h[?25le[?25h[?25l [?25h[?25l[2;22r[2;1H[L[1;23r[2;1H[?25h[?25lT[?25h[?25lH[?25h[?25l[2;2H[K[2;2H[?25h[?25l[2;1H[K[2;1H[?25h[?25l[3;22r[3;1H[L[1;23r[2;1HThis is about Lab1,Question B.
+It is about Writing a C[23;11H[1m(paste) --[3;24H[?25h[?25l[4;22r[m[4;1H[L[1;23r[3;24H++ program to read in an integer and print out the corress[4;1Hpond[?25h[?25l[5;22r[5;1H[L[1;23r[4;5Hing sequence of numbers.
+[?25h[?25l[6;22r[6;1H[L[1;23r[6;1H[?25h[?25lSince we will do something different when the integer[?25h[?25l[7;22r[7;1H[L[1;23r[6;55His odd and even,
+so I use if else statement to make the [?25h[?25l[8;22r[8;1H[L[1;23r[7;40Hcondition different.
+Since we want to repeat the if else st[?25h[?25l[9;22r[9;1H[L[1;23r[8;39Hatement,
+[?25h[?25l[10;22r[10;1H[L[1;23r[9;1Hso I use do while statement to make it repeat.[23;11H[1m--a[m[23;13H[K[10;1H[?25h[?25l[11;22r[11;1H[L[1;23r[11;1H[?25h[?25lH[?25h[?25lo[?25h[?25lp[?25h[?25le[?25h[?25l [?25h[?25lt[?25h[?25lh[?25h[?25la[?25h[?25lt[?25h[?25l [?25h[?25lt[?25h[?25lh[?25h[?25li[?25h[?25ls[?25h[?25l [?25h[?25li[?25h[?25ls[?25h[?25l [?25h[?25lt[?25h[?25lh[?25h[?25le[?25h[?25l [?25h[?25lr[?25h[?25li[?25h[?25lg[?25h[?25lh[?25h[?25lt[?25h[?25l [?25h[?25lw[?25h[?25la[?25h[?25ly[?25h[?25l [?25h[?25lt[?25h[?25lo[?25h[?25l [?25h[?25ls[?25h[?25lh[?25h[?25li[?25h[?25l[11;38H[K[11;38H[?25h[?25lo[?25h[?25lw[?25h[?25l [?25h[?25lt[?25h[?25lh[?25h[?25le[?25h[?25l [?25h[?25lr[?25h[?25lu[?25h[?25ln[?25h[?25ln[?25h[?25li[?25h[?25ln[?25h[?25lg[?25h[?25l [?25h[?25ls[?25h[?25lc[?25h[?25lr[?25h[?25li[?25h[?25lp[?25h[?25lt[?25h[?25l.[?25h[?25l[12;22r[12;1H[L[1;23r[12;1H[?25h[?25lO[?25h[?25lt[?25h[?25lh[?25h[?25le[?25h[?25lr[?25h[?25lw[?25h[?25li[?25h[?25ls[?25h[?25le[?25h[?25l [?25h[?25l[?25h[?25l,[?25h[?25l [?25h[?25lt[?25h[?25lh[?25h[?25le[?25h[?25l [?25h[?25lo[?25h[?25ln[?25h[?25ll[?25h[?25ly[?25h[?25l [?25h[?25lt[?25h[?25lh[?25h[?25li[?25h[?25ln[?25h[?25lg[?25h[?25l [?25h[?25lI[?25h[?25l [?25h[?25lc[?25h[?25la[?25h[?25ln[?25h[?25l [?25h[?25ld[?25h[?25lo[?25h[?25l [?25h[?25li[?25h[?25ls[?25h[?25l [?25h[?25lt[?25h[?25lo[?25h[?25l [?25h[?25lw[?25h[?25lr[?25h[?25li[?25h[?25lt[?25h[?25le[?25h[?25l [?25h[?25lo[?25h[?25ln[?25h[?25le[?25h[?25l [?25h[?25lm[?25h[?25lo[?25h[?25lr[?25h[?25le[?25h[?25l [?25h[?25lt[?25h[?25li[?25h[?25lm[?25h[?25le[?25h[?25l.[?25h[?25l[13;22r[13;1H[L[1;23r[13;1H[?25h[?25l:[?25h[?25lw[?25h[?25l[14;22r[14;1H[L[1;23r[14;1H[?25h[?25l:[?25h[?25l[14;1H[K[14;1H[?25h[?25l[13;22r[22;1H
+[1;23r[13;1H:w[22;1H#[13;3H[?25h[?25l[13;2H[K[13;2H[?25h[?25l[13;1H[K[13;1H[?25h[23;1H[K[13;1H[?25l[?25h[?25l[23;1H:[?2004h[?25hw[?25l".git/COMMIT_EDITMSG" 27L, 842C written[13;1H[?25h[?25l[23;1H[K[23;1H:[?2004h[?25hq[?25l[?2004l[23;1H[K[23;1H[?2004l[?1l>[?25h[?1049l[K[master 3e84370] Title This is about Lab1,Question B. It is about Writing a C++ program to read in an integer and print out the corresponding sequence of numbers.
+ 1 file changed, 28 insertions(+)
+ create mode 100644 questionB.cpp
+]0;~/lab1
+[32muser@LAPTOP-CGRIFD4K [33m~/lab1[0m
+$ git log
+[?1h=[33mcommit 3e84370550a89ba416845e04714b80c6d65159ef[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: vicky87106 <vicky87106@gmail.com>[m
+Date:   Fri Mar 16 01:25:25 2018 +0800[m
+[m
+    Title[m
+    This is about Lab1,Question B.[m
+    It is about Writing a C++ program to read in an integer and print out the co[m rresponding sequence of numbers.[m
+    [m
+    Since we will do something different when the integer is odd and even,[m
+    so I use if else statement to make the condition different.[m
+    Since we want to repeat the if else statement,[m
+    so I use do while statement to make it repeat.[m
+    [m
+    Hope that this is the right way to show the running script.[m
+    Otherwise, the only thing I can do is to write one more time.[m
+[m
+[33mcommit 0c4a6364f84d419073bb765afc1d0b3cb059145a[m[33m ([m[1;31morigin/master[m[33m)[m[m
+Merge: 4ed7b46 7ab3173[m
+Author: vicky87106 <vicky87106@gmail.com>[m
+Date:   Thu Mar 15 20:18:51 2018 +0800[m
+[m
+:[K[K:[K[K    Merge branch 'master' of https://github.com/vicky87106/lab1[m
+:[K[K[m
+:[K[K [KESCESC[KESCESC[K:[K[K [K::[K^?^?[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K[HMAuthor: vicky87106 <vicky87106@gmail.com>[m
+[HM[33mcommit 3e84370550a89ba416845e04714b80c6d65159ef[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+[23;1H[K:[K[K[?1l>]0;~/lab1
+[32muser@LAPTOP-CGRIFD4K [33m~/lab1[0m
+$ git remote add origin https://github.com/vicky87106/lab1
+fatal: remote origin already exists.
+]0;~/lab1
+[32muser@LAPTOP-CGRIFD4K [33m~/lab1[0m
+$ git push origin master
+Username for 'https://github.com': 
+Password for 'https://vicky87106@github.com': 
+To https://github.com/vicky87106/lab1.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/vicky87106/lab1.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+]0;~/lab1
+[32muser@LAPTOP-CGRIFD4K [33m~/lab1[0m
+$ git remote
+origin
+vicky87106
+]0;~/lab1
+[32muser@LAPTOP-CGRIFD4K [33m~/lab1[0m
+$ git remote -v
+origin	https://github.com/vicky87106/lab1.git (fetch)
+origin	https://github.com/vicky87106/lab1.git (push)
+vicky87106	https://github.com/vicky87106 (fetch)
+vicky87106	https://github.com/vicky87106 (push)
+]0;~/lab1
+[32muser@LAPTOP-CGRIFD4K [33m~/lab1[0m
+$ git remote add origin https://github.com/vicky87106/lab1
+fatal: remote origin already exists.
+]0;~/lab1
+[32muser@LAPTOP-CGRIFD4K [33m~/lab1[0m
+$ git push origin master
+Username for 'https://github.com': 
+Password for 'https://vicky87106@github.com': 
+To https://github.com/vicky87106/lab1.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/vicky87106/lab1.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+]0;~/lab1
+[32muser@LAPTOP-CGRIFD4K [33m~/lab1[0m
+$ git pull origin master
+remote: Counting objects: 5, done.[K
+remote: Compressing objects:  20% (1/5)   [Kremote: Compressing objects:  40% (2/5)   [Kremote: Compressing objects:  60% (3/5)   [Kremote: Compressing objects:  80% (4/5)   [Kremote: Compressing objects: 100% (5/5)   [Kremote: Compressing objects: 100% (5/5), done.[K
+remote: Total 5 (delta 2), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  20% (1/5)   Unpacking objects:  40% (2/5)   Unpacking objects:  60% (3/5)   Unpacking objects:  80% (4/5)   Unpacking objects: 100% (5/5)   Unpacking objects: 100% (5/5), done.
+From https://github.com/vicky87106/lab1
+ * branch            master     -> FETCH_HEAD
+   0c4a636..999bdb5  master     -> origin/master
+Removing typescript
+Auto-merging lab1.script
+hint: Waiting for your editor to close the file... [?2004h[?1049h[?1h=[?2004h[1;23r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[23;1H"~/lab1/.git/MERGE_MSG" 7L, 287C[1;1HMerge branch 'master' of https://github.com/vicky87106/lab1
+
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+[1m[34m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [1;1H[?25h[?25l[m[23;1H[K[23;1H:[?2004h[?25hw[?25l".git/MERGE_MSG" 7L, 287C written[1;1H[?25h[?25l[23;1H[K[23;1H:[?2004h[?25hq[?25l[?2004l[23;1H[K[23;1H[?2004l[?1l>[?25h[?1049l[KMerge made by the 'recursive' strategy.
+ lab1 => lab1.script | 134 [32m++++++++++++++++++++++++++++++++++[m[31m------------------[m
+ typescript          |   0
+ 2 files changed, 88 insertions(+), 46 deletions(-)
+ rename lab1 => lab1.script (76%)
+ delete mode 100644 typescript
+]0;~/lab1
+[32muser@LAPTOP-CGRIFD4K [33m~/lab1[0m
+$ git push origin master
+Username for 'https://github.com': 
+Password for 'https://vicky87106@github.com': 
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects:  20% (1/5)   Compressing objects:  40% (2/5)   Compressing objects:  60% (3/5)   Compressing objects:  80% (4/5)   Compressing objects: 100% (5/5)   Compressing objects: 100% (5/5), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 1.03 KiB | 1.03 MiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+To https://github.com/vicky87106/lab1.git
+   999bdb5..5f5e0e2  master -> master
+]0;~/lab1
+[32muser@LAPTOP-CGRIFD4K [33m~/lab1[0m
+$ cat questionB.script
+]0;~/lab1
+[32muser@LAPTOP-CGRIFD4K [33m~/lab1[0m
+$ mv questionB.script lab1
+]0;~/lab1
+[32muser@LAPTOP-CGRIFD4K [33m~/lab1[0m
+$ exit
+
+命令稿已於 2018年03月16日 上午 01:36:50
+ 完成
