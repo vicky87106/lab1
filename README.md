@@ -3,7 +3,7 @@ Title
 
 How to compile my program
 
-Use "g++ questionB.cop" command.
+Use "g++ questionB.cpp" command.
 Then use "g++ -o questionB questionB.cop
 Then use "./questionB " command.
 Then the result will come out.
