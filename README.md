@@ -2,6 +2,7 @@
 Title
 
 How to compile my program
+
 Use "g++ questionB.cop" command.
 Then use "g++ -o questionB questionB.cop
 Then use "./questionB " command.
